@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/c++,c,visualstudiocode,visualstudio,linux,windows,macos,clion+all
-# Edit at https://www.toptal.com/developers/gitignore?templates=c++,c,visualstudiocode,visualstudio,linux,windows,macos,clion+all
+# Created by https://www.toptal.com/developers/gitignore/api/c,c++,linux,visualstudio,visualstudiocode,clion+all
+# Edit at https://www.toptal.com/developers/gitignore?templates=c,c++,linux,visualstudio,visualstudiocode,clion+all
 
 ### C ###
 # Prerequisites
@@ -177,39 +177,6 @@ fabric.properties
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-### macOS ###
-# General
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must end with two \r
-Icon
-
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-### macOS Patch ###
-# iCloud generated files
-*.icloud
-
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -228,32 +195,6 @@ Temporary Items
 # Ignore all local history of files
 .history
 .ionide
-
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-
-# Dump file
-*.stackdump
-
-# Folder config file
-[Dd]esktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
 
 ### VisualStudio ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -633,6 +574,11 @@ FodyWeavers.xsd
 # Local History for Visual Studio Code
 
 # Windows Installer files from build outputs
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
 
 # JetBrains Rider
 *.sln.iml
@@ -640,4 +586,6 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/c++,c,visualstudiocode,visualstudio,linux,windows,macos,clion+all
+# End of https://www.toptal.com/developers/gitignore/api/c,c++,linux,visualstudio,visualstudiocode,clion+all
+
+/practical-assignment-4/*.txt
